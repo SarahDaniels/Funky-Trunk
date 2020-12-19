@@ -1,0 +1,118 @@
+/* Body */
+body {
+  background-color: 	rgb(235, 236, 236);
+  color: rgb(0, 0, 0);
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+/* Navbar */
+/* Add a black background color to the top navigation */
+.nav {
+    background-color: hsl(213, 48%, 29%);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+.nav a {
+    float: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+.nav a:hover {
+    background-color: rgb(165, 165, 167);
+    color: hsl(0, 100%, 100%);
+  }
+  
+  /* Add a color to the active/current link */
+.nav a.active {
+    background-color: hsl(10, 7%, 67%);
+    color: hsl(0, 0%, 0%);
+  }
+
+.nav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+
+a {
+  color: hsl(0, 0%, 100%);
+}
+
+/*Carousel */
+.carousel {
+  margin: 0px 250px;
+}
+
+.d-block {
+  height: 500px;
+}
+
+/* checkout.php */
+/* table */
+th, td {
+  padding: 15px 30px;
+  text-align: center;
+}
+
+.table {
+  background-color: hsl(0, 0%, 80%);
+  width: 300px;
+  border: 5px double black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* button */
+.button {
+  height: 100px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.accordion {
+  color: white;
+  background-color: hsl(250, 100%, 30%);
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 20px 30px;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 8px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: hsl(250, 100%, 20%);
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: hsl(30, 100%, 50%);
+  display: none;
+  overflow: hidden;
+}
+
+.footer {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	background-color:  hsl(213, 48%, 29%);
+	color: white;
+	text-align: center;
+}
